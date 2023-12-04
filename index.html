@@ -56,22 +56,13 @@
 </div>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        // Handle button click event
-        document.getElementById('confirm-link').addEventListener('click', function () {
-            // Show SweetAlert2 dialog
-            Swal.fire({
-                title: 'Account Verified!',
-                text: 'Your certificate is verfied successfully.',
-                icon: 'success',
-                confirmButtonText: 'OK'
-            })
+        // Use SweetAlert to display the verified dialog box
+        Swal.fire({
+            title: 'Success!',
+            text: 'Your Certificate is verified successfully.',
+            icon: 'success',
+            confirmButtonText: 'OK'
         });
-    });
-
-</script>
-
-
- 
+    </script>
 </body>
 </html>
